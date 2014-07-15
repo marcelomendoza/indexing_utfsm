@@ -1,4 +1,4 @@
-indexing_utfsm
+Indexación de objetos astronómicos
 ==============
 
-Indexación de objetos astronómicos
+Código en R

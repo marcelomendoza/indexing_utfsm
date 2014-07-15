@@ -1,0 +1,2 @@
+create table objects (ra real, dec real, centroid geometry(Point,4326), fits varchar(256));
+
