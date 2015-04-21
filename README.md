@@ -18,7 +18,7 @@ Source codes are organized as follows:
 
 Examples
 
-1. ROI detection:
+- ROI detection:
 
 R> spectra <- cube_spectra(Z_block,500)
 
@@ -26,16 +26,23 @@ R> h1 <- vel_stacking(Z_block,67,96)
 
 R> h2 <- vel_stacking(Z_block,105,148)
 
+- Multiscale segmentation:
 
-2. Indexing:
+R> gaussian_mix(h1)
+
+R> gaussian_mix(h2)
+
+R> getObjects(h1)
+
+R> getObjects(h2)
+
+- Relational indexing:
 
 % Dependences on DBI and RPostgreSQL 
 
 R> drv <- dbDriver("PostgreSQL")
 
 R> database <- dbConnect(drv, dbname="alma", user="postgres", password=" ")
-
-R> fits <- "http://das.sdss.org/www/cgi-bin/drC?RUN=3630&RERUN=40&CAMCOL=3&FIELD=83&FILTER=r"
 
 R> mainFunction(database,fits)
 
