@@ -24,8 +24,8 @@
 #
 library(EBImage)
 library(FITSio)
-source('~/Desktop/cube_indexer/codes/cube_spectra/cube_spectra.R')
-z <- file(description="~/Desktop/cube_indexer/PerA_13co_FCRAO_xyv_smooth_v2.fits", open="rb")
+source('cube_spectra.R')
+z <- file(description="PerA_13co_FCRAO_xyv_smooth_v2.fits", open="rb")
 header <- readFITSheader(z)
 D <- readFITSarray(z, header)
 close(z)
