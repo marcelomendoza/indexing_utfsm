@@ -19,6 +19,9 @@ Source codes are organized as follows:
 # Examples
 1. ROI detection:
 
+R> spectra <- cube_spectra(Z_block,500)
+R> h1 <- vel_stacking(Z_block,67,96)
+R> h2 <- vel_stacking(Z_block,105,148)
 
 
 2. Indexing:
