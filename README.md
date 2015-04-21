@@ -14,10 +14,13 @@ accumulating.R, cube_spectra.R, differenting.R, erosing.R, masking.R, pixel_proc
 
 Multiscale segmentation codes are in the following files:
 
-gaussian_mix.R, bg_fg.R, optimal_w.R, kernelsmooth.R, kernel_shift.R, ...
+gaussian_mix.R, bg_fg.R, optimal_w.R, kernelsmooth.R, kernel_shift.R
 
-Indexing codes (to deal with a relational database) are in indexing.
+Indexing codes (to deal with a relational database):
 
+- mainFunction.R: runs the indexing pipeline.
 
+indexing codes are in tje following files:
+ mainFunction.R, 
 
 @Marcelo Mendoza (21/4/15)
