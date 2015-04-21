@@ -16,14 +16,14 @@ Source codes are organized as follows:
 - Indexing codes (to deal with a relational database): mainFunction.R (runs the indexing pipeline), getObjects.R, getCoordData.R, calculateCoords.R, and writeToDataBase.R
 
 
-Examples.
+# Examples
 1. ROI detection:
 
 
 
 2. Indexing:
 
-# Dependences on DBI and RPostgreSQL 
+% Dependences on DBI and RPostgreSQL 
 
 R> drv <- dbDriver("PostgreSQL")
 
