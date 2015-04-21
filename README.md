@@ -20,11 +20,17 @@ Examples.
 1. ROI detection:
 
 
+
 2. Indexing:
+
 # Dependences on DBI and RPostgreSQL 
+
 R> drv <- dbDriver("PostgreSQL")
+
 R> database <- dbConnect(drv, dbname="alma", user="postgres", password=" ")
+
 R> fits <- "http://das.sdss.org/www/cgi-bin/drC?RUN=3630&RERUN=40&CAMCOL=3&FIELD=83&FILTER=r"
+
 R> mainFunction(database,fits)
 
 @Marcelo Mendoza (21/4/15)
