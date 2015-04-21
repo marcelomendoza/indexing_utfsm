@@ -1,7 +1,7 @@
 Indexación de objetos astronómicos
-==============
+==================================
 
-Código en R
+R codes.
 
 - cube_indexing.R runs the full pipeline of the system. 
 
