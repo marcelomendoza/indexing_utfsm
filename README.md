@@ -1,4 +1,4 @@
-Indexación de objetos astronómicos
+CubeIndexer
 ==================================
 
 R codes.
